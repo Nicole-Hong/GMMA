@@ -1,2 +1,2 @@
-# GMMA-Queen-s-U
+# GMMA
 Global Master of Management Analytics-General Folder
