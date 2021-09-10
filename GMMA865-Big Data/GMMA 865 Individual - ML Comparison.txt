@@ -1,0 +1,364 @@
+Decision Tree (dt)
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.54      0.97      0.69       231
+           1       0.90      0.23      0.37       249
+
+    accuracy                           0.59       480
+   macro avg       0.72      0.60      0.53       480
+weighted avg       0.73      0.59      0.52       480
+
+
+Multi-Layer Neural Network (mlp)
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.72      0.80      0.76       231
+           1       0.79      0.71      0.75       249
+
+    accuracy                           0.75       480
+   macro avg       0.76      0.76      0.75       480
+weighted avg       0.76      0.75      0.75       480
+
+
+Linear SVC
+>>> print("\nF1 Score = {:.5f}".format(f1_score(y_val, pred_val, average="micro")))
+
+F1 Score = 0.77708
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.75      0.81      0.78       231
+           1       0.81      0.74      0.78       249
+
+    accuracy                           0.78       480
+   macro avg       0.78      0.78      0.78       480
+weighted avg       0.78      0.78      0.78       480
+
+
+Random Forest (rf)
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.72      0.83      0.77       231
+           1       0.81      0.70      0.75       249
+
+    accuracy                           0.76       480
+   macro avg       0.77      0.76      0.76       480
+weighted avg       0.77      0.76      0.76       480
+
+
+LightGBM (lgbm)
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.60      0.79      0.68       231
+           1       0.73      0.51      0.60       249
+
+    accuracy                           0.65       480
+   macro avg       0.66      0.65      0.64       480
+weighted avg       0.67      0.65      0.64       480
+
+
+Light GBM with lgbm = LGBMClassifier(n_estimators=500, feature_fraction=0.07, bagging_fraction=0.70, bagging_freq=1, verbose=0, n_jobs=6, random_state=SEED)
+>>> print("\nF1 Score = {:.5f}".format(f1_score(y_val, pred_val, average="micro")))
+
+F1 Score = 0.64792
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.60      0.78      0.68       231
+           1       0.72      0.52      0.61       249
+
+    accuracy                           0.65       480
+   macro avg       0.66      0.65      0.64       480
+weighted avg       0.67      0.65      0.64       480
+
+>>>
+
+
+
+
+Gradient Boosting (gbm)
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.69      0.87      0.77       231
+           1       0.85      0.64      0.73       249
+
+    accuracy                           0.75       480
+   macro avg       0.77      0.76      0.75       480
+weighted avg       0.77      0.75      0.75       480
+
+GBM with random_state = SEED (47)
+>>> print("\nF1 Score = {:.5f}".format(f1_score(y_val, pred_val, average="micro")))
+
+F1 Score = 0.76250
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.70      0.90      0.78       231
+           1       0.87      0.64      0.74       249
+
+    accuracy                           0.76       480
+   macro avg       0.78      0.77      0.76       480
+weighted avg       0.79      0.76      0.76       480
+
+
+GBM with 
+gbm = GradientBoostingClassifier(n_estimators=500, subsample=0.70, max_features=0.06, validation_fraction=0.1, n_iter_no_change=10, verbose=2, random_state=SEED)
+
+>>> print("\nF1 Score = {:.5f}".format(f1_score(y_val, pred_val, average="micro")))
+
+F1 Score = 0.74583
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.69      0.84      0.76       231
+           1       0.82      0.65      0.73       249
+
+    accuracy                           0.75       480
+   macro avg       0.76      0.75      0.74       480
+weighted avg       0.76      0.75      0.74       480
+
+>>>
+
+
+
+XGBoost (xgb)
+This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.69      0.77      0.73       231
+           1       0.76      0.68      0.72       249
+
+    accuracy                           0.72       480
+   macro avg       0.73      0.72      0.72       480
+weighted avg       0.73      0.72      0.72       480
+
+
+Logistic Regression (LR)
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.76      0.84      0.80       231
+           1       0.83      0.75      0.79       249
+
+    accuracy                           0.79       480
+   macro avg       0.80      0.80      0.79       480
+weighted avg       0.80      0.79      0.79       480
+
+
+Adaboost (ab)
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.73      0.81      0.77       231
+           1       0.80      0.72      0.76       249
+
+    accuracy                           0.76       480
+   macro avg       0.77      0.76      0.76       480
+weighted avg       0.77      0.76      0.76       480
+
+
+Histogram-based Gradient Boosting Machine (hgbm)
+
+>>> pipe.fit(X_train, y_train)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\pipeline.py", line 335, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\ensemble\_hist_gradient_boosting\gradient_boosting.py", line 121, in fit
+    X, y = self._validate_data(X, y, dtype=[X_DTYPE],
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\base.py", line 432, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 796, in check_X_y
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 576, in check_array
+    array = _ensure_sparse_format(array, accept_sparse=accept_sparse,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 354, in _ensure_sparse_format
+    raise TypeError('A sparse matrix was passed, but dense '
+TypeError: A sparse matrix was passed, but dense data is required. Use X.toarray() to convert to a dense numpy array.
+
+
+CatBoost (cb)
+>>> pipe.fit(X_train, y_train)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\pipeline.py", line 335, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\catboost\core.py", line 4290, in fit 
+    self._fit(X, y, cat_features, text_features, embedding_features, None, sample_weight, None, None, None, None, baseline, use_best_model,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\catboost\core.py", line 1788, in _fit
+    train_params = self._prepare_train_params(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\catboost\core.py", line 1678, in _prepare_train_params
+    train_pool = _build_train_pool(X, y, cat_features, text_features, embedding_features, pairs,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\catboost\core.py", line 984, in _build_train_pool
+    train_pool = Pool(X, y, cat_features=cat_features, text_features=text_features, embedding_features=embedding_features, pairs=pairs, weight=sample_weight, group_id=group_id,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\catboost\core.py", line 439, in __init__
+    raise CatBoostError(
+_catboost.CatBoostError: 'data' is scipy.sparse.spmatrix, it means no text features, but 'text_features' parameter specifies nonzero number of text features
+
+
+
+KNN
+
+>>> print("\nF1 Score = {:.5f}".format(f1_score(y_val, pred_val, average="micro")))
+
+F1 Score = 0.64375
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.60      0.77      0.68       231
+           1       0.71      0.52      0.60       249
+
+    accuracy                           0.64       480
+   macro avg       0.66      0.65      0.64       480
+weighted avg       0.66      0.64      0.64       480
+
+
+
+
+SVC
+>>> print("\nF1 Score = {:.5f}".format(f1_score(y_val, pred_val, average="micro")))
+
+F1 Score = 0.79375
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.75      0.85      0.80       231
+           1       0.84      0.74      0.79       249
+
+    accuracy                           0.79       480
+   macro avg       0.80      0.80      0.79       480
+weighted avg       0.80      0.79      0.79       480
+
+>>>
+
+Gaussian NB
+>>> pipe.fit(X_train, y_train)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\pipeline.py", line 335, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\naive_bayes.py", line 210, in fit
+    X, y = self._validate_data(X, y)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\base.py", line 432, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 73, in inner_f      
+    return f(**kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 796, in check_X_y   
+    X = check_array(X, accept_sparse=accept_sparse,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 73, in inner_f      
+    return f(**kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 576, in check_array 
+    array = _ensure_sparse_format(array, accept_sparse=accept_sparse,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py", line 354, in _ensure_sparse_format
+    raise TypeError('A sparse matrix was passed, but dense '
+TypeError: A sparse matrix was passed, but dense data is required. Use X.toarray() to convert to a dense numpy array.
+>>>
+
+
+BernoulliNB
+>>> print("\nF1 Score = {:.5f}".format(f1_score(y_val, pred_val, average="micro")))
+
+F1 Score = 0.80208
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.78      0.82      0.80       231
+           1       0.83      0.78      0.80       249
+
+    accuracy                           0.80       480
+   macro avg       0.80      0.80      0.80       480
+weighted avg       0.80      0.80      0.80       480
+
+
+>>> print("\nF1 Score = {:.5f}".format(f1_score(y_val, pred_val, average="micro")))
+
+F1 Score = 0.79583
+>>> print("\nClassification Report:")
+
+Classification Report:
+>>> print(classification_report(y_val, pred_val))
+              precision    recall  f1-score   support
+
+           0       0.77      0.83      0.80       231
+           1       0.83      0.77      0.80       249
+
+    accuracy                           0.80       480
+   macro avg       0.80      0.80      0.80       480
+weighted avg       0.80      0.80      0.80       480
+
+>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
