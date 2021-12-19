@@ -1,4 +1,4 @@
-# Kaggle Competition: House Prices: Advanced Regression Techniques
+# Kaggle Competition: House Prices - Advanced Regression Techniques
 ## Predict sales prices and practice feature engineering, RFs, and gradient boosting
 
 This was the individual project on the Kaggle competition (Link: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview)
@@ -25,10 +25,10 @@ Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarith
 ### Submission File Format
 The file should contain a header and have the following format:
 
-Id,SalePrice
-1461,169000.1
-1462,187724.1233
-1463,175221
+Id, SalePrice
+1461, 169000.1
+1462, 187724.1233
+1463, 175221
 etc.
 
 ## Data Description
@@ -125,6 +125,7 @@ Here's a brief version of the data description file:
 
 ## Final Report
 My final report on this Kaggle Competition can be found in the following link:
+
 https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA867/GMMA%20867%20Individual%20Assignment%201.pdf
 
 
