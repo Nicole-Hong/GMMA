@@ -5,14 +5,17 @@ This was the individual project for performing the sentiment analysis on text da
 ## Data Used
 The following “Product Sentiment” datasets in csv files were provided for this analysis:
 - sentiment_train.csv = to train the machine learning algorithms
+  
   https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA865-Big%20Data/sentiment_train.csv
   
 - sentiment_test.csv = to predict the product sentiment based on the trained models
+  
   https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA865-Big%20Data/sentiment_test.csv  
 
 ## Task Process
 a.	Load, clean, and preprocess the data as you find necessary.
-b.	Using the training data, extract features from the text (i.e., BOW and/or Bag of N-Grams and/or topics and/or lexical features and/or whatever you want). 
+b.	Using the training data, extract features from the text 
+    (i.e., BOW and/or Bag of N-Grams and/or topics and/or lexical features and/or whatever you want). 
 c.	Use my favorite ML algorithm to train a classification model (using hyperparameter tuning, cross validation, handling imbalanced data, etc.)
     Make reasonable decisions and try to create the best-performing classifier.
 d.	Use the testing data to measure the accuracy and F1-score of models. 
@@ -31,14 +34,10 @@ The following feature engineering was applied to the dataset:
 
 With the feature engineering above, 71% to 73% of F1 scores mean that 3 reviews out of every 10 reviewers in reality are misinterpreted as being not helpful, when in fact, those are helpful reviews. I would consider this result as pretty satisfying, although much higher accuracy and scores are attainable. However, without the feature engineering, both, the F1 score and accuracy scores were slightly higher by 2% with 0.74.
 
-## Five example instances in which model predictions were incorrect & Description of My Reasoning 
+## Five example instances in which model predictions were incorrect
 Five instances in which my model’s predictions were incorrect are summarized in the following table:
-Instance	Machine Learning Model	F1 Score on Training Dataset	F1 Score on Test Dataset
-1	SVC	0.78	0.69
-2	Linear SVC	0.76	0.67
-3	Gradient Boosting	0.73	0.65
-4	AdaBoostClassifier	0.78	0.69
-5	KNN	0.67	0.53
+
+![gmma-image-insert1](https://user-images.githubusercontent.com/66085943/146666893-dc49c9e0-d3a2-49bd-90f2-a792d8b0f673.PNG)
 
 Overall, F1 scores on training dataset were might higher than F1 scores on test datasets for all five instances, which seems to indicate the overfitting issue.  The training data was randomly split between the train and hold out set in the proportion of 90% and 10%.  The grid search (i.e. SKlearn grid search method - GridSearchCV) was not done, so it was not possible to find out if there was any overlap between the data points used and the hold-out set. However, given only two variables with relatively small size of datasets for both, training and test datasets without any timestamps, it was assumed that there was no potential overlap.  
 
