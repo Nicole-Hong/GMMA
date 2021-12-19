@@ -5,7 +5,10 @@ This was the individual project for performing the sentiment analysis on text da
 ## Data Used
 The following “Product Sentiment” datasets in csv files were provided for this analysis:
 - sentiment_train.csv = to train the machine learning algorithms
+  https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA865-Big%20Data/sentiment_train.csv
+  
 - sentiment_test.csv = to predict the product sentiment based on the trained models
+  https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA865-Big%20Data/sentiment_test.csv  
 
 ## Task Process
 a.	Load, clean, and preprocess the data as you find necessary.
