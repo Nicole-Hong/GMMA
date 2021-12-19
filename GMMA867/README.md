@@ -25,13 +25,11 @@ Submissions are evaluated on Root-Mean-Squared-Error (RMSE) between the logarith
 ### Submission File Format
 The file should contain a header and have the following format:
 
-Id,SalePrice
-1461,169000.1
-1462,187724.1233
-1463,175221
-etc.
-
-
+    Id,SalePrice
+    1461,169000.1
+    1462,187724.1233
+    1463,175221
+    etc.
 
 ## Data Description
 ### File descriptions
@@ -43,13 +41,9 @@ etc.
 
 ### Data fields
 Here's a brief version of the data description file:
-
 https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA867/Data_Fields
 
 ## Final Report
 My final report on this Kaggle Competition can be found in the following link:
 
 https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA867/GMMA%20867%20Individual%20Assignment%201.pdf
-
-
-
