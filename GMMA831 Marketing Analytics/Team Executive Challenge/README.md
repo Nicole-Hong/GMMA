@@ -5,6 +5,8 @@ Based on the BigBasket Case for the Product Recommendation, the retailer's data 
 ## Assigned Work
 I was the team lead for this team executive challenge, and was responsible for conducting the market basket analysis and developing the association rules using the Apriori function to come up with the recommender system (https://towardsdatascience.com/apriori-association-rule-mining-explanation-and-python-implementation-290b42afdfc6).
 
+Visuals provided in this repository are to showcase my work that features the process of developing the association rules, using R.
+
 ## Team Presentation
 The presentation was recorded in the following video, which features the result of EDA and model proposals. The section of my presentation can be found from 2:05 min to 8:28 min mark:
 
