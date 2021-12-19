@@ -46,7 +46,7 @@ The dataset consists of all information on the Formula 1 races, drivers, constru
 R was used as the programming language to analyze the F1 data and to develop the predictive model.
 
 ## Assigned Work
-For this team project, I was responsible for data cleaning/structuring, using R, and visualization, using Tableau, R and Excel. Visualization files uploaded in this repository are soely done by me, and the data upload/preprocessing section in R code file is done through the collaboration work by myself and one team member.
+For this team project, I was responsible for data cleaning/structuring, using R, and visualization, using Tableau, R and Excel. Visualization files uploaded in this repository are solely done by me, and the data upload/preprocessing section in R code file is done through the collaboration work by myself and one team member.
 
 ## Proporal & Final Report
 
