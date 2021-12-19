@@ -35,4 +35,10 @@ the recommendation proposed.
 F1 race data from 1950 to 2021: Formula 1 World Championship (1950 - 2021)
 https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020
 
+## Final Report
 
+The report can be found in the following file in this repository:
+https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA%20860/Team%20Project/GMMA%20860%20Team%20Project.pdf
+
+
+https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA%20860/Team%20Project/GMMA%20860%20Team%20Project.pdf
