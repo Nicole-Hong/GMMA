@@ -10,7 +10,7 @@ Visuals provided in this repository are to showcase my work that features the pr
 ## Presentation
 The presentation was recorded in the following video, which features the result of EDA and model proposals:
 
-#### Team
+### Team
 Presentation at Team Challenge in class on February 21, 2021
 *(The section of my presentation from 2:05 to 8:28 mark)*
 
@@ -18,7 +18,7 @@ Presentation Slides: https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GM
 
 Recording: https://drive.google.com/file/d/1Q3OTlwKLPvlhZ9dyq1BMRrYEbbsRhAug/view?usp=sharing
 
-#### Individual
+### Individual
 Presentation at Data Science Lightning Talks on January 13, 2022
 *(The section of my presentation from 37:20 to 58:49 mark)*
 
