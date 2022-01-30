@@ -12,14 +12,15 @@ The presentation was recorded in the following video, which features the result 
 
 #### Team
 Presentation at Team Challenge in class on February 21, 2021
-(The section of my presentation from 2:05 to 8:28 mark)
+*(The section of my presentation from 2:05 to 8:28 mark)*
+
 Presentation Slides: https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA831%20Marketing%20Analytics/Team%20Executive%20Challenge/Team%20Melbourne%20-%20Big%20Basket.pdf
 
 Recording: https://drive.google.com/file/d/1Q3OTlwKLPvlhZ9dyq1BMRrYEbbsRhAug/view?usp=sharing
 
 #### Individual
 Presentation at Data Science Lightning Talks on January 13, 2022
-(The section of my presentation from 37:20 to 58:49 mark)
+*(The section of my presentation from 37:20 to 58:49 mark)*
 
 Presentation Slides: https://github.com/Nicole-Hong/GMMA-Projects/blob/master/GMMA831%20Marketing%20Analytics/Team%20Executive%20Challenge/Data%20Science%20Lightning%20Individual%20-%20BigBasket.pdf
 
