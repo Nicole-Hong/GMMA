@@ -7,8 +7,8 @@ I was the team lead for this team executive challenge, and was responsible for c
 
 Visuals provided in this repository are to showcase my work that features the process of developing the association rules, using R.
 
-## Presentation
-The presentation was recorded in the following video, which features the result of EDA and model proposals:
+## Presentations
+The presentations were recorded in the following videos, which feature the result of EDA and model proposals:
 
 ### Team
 Presentation at Team Challenge in class on February 21, 2021
