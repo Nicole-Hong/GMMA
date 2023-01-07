@@ -21,7 +21,7 @@ Based on the BigBasket Case for the Product Recommendation, which is the India's
 
 ## GMMA 865 - Individual Project on Big Data & NLP
 
-Performed the sentiment analysis on the real-life "product sentiment" text datasets based on the Amazon review, using Python, various ML-based approach and Natural Languague Processing (NLP) techniques.
+Performed the sentiment analysis on the real-life "product sentiment" text datasets based on the Amazon review, using Python, various machine learning models and Natural Languague Processing (NLP) techniques.
 
 [Link to the Project](https://github.com/Nicole-Hong/GMMA-Projects/tree/master/GMMA865-Big%20Data)
 
