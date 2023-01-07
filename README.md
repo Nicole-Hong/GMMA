@@ -1,4 +1,4 @@
-# Project Portfolios from Master of Management Analytics (MMA) at Queen's University
+# Project Portfolio from Master of Management Analytics (MMA) at Queen's University
 
 This repository is for showcasing the following projects that I worked for the master's degree at Smith School of Business, Queen's University.
 
